@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2 id="title"></h2>
+<form>
+    <fieldset>
+        <legend>Peeps Online</legend>
+        <p id ="peeps"></p>
+    </fieldset>
+    <fieldset>
+        <legend>Send Msg to users</legend>
+        Message:<input type="text" id="message1"/><br />
+        <input id="submit_button2" type="button" value="Submit now" />
+    </fieldset>
+    <fieldset>
+        <legend>Send Msg to users</legend>
+        Username:<input type="text" id="user"/> <br />
+        Message:<input type="text" id="message"/><br />
+        <input id="submit_button" type="button" value="Submit now" />
+    </fieldset>
+    <fieldset>
+        <p>Your Messages</p>
+        <p id="myP">y</p>
+    </fieldset>
+    <fieldset>
+        <p>Global Messages</p>
+        <p id="myP1">y</p>
+    </fieldset>
+
+</form>
+
+
+</body>
+<script src="index.js"></script>
+
+
+</html>
